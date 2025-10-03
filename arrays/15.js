@@ -6,6 +6,8 @@
  * convertToFahrenheit([0, 20, 30]); // returns [32, 68, 86]
  */
 export function convertToFahrenheit(tempsCelsius) {
+  // TODO: Use the map() method to convert each temperature to Fahrenheit
   // Formula: (Celsius * 9/5) + 32
-  return tempsCelsius.map(celsius => (celsius * 9/5) + 32)
+  // TODO: Return the new array with temperatures in Fahrenheit
+  return tempsCelsius.map(Celsius => (Celsius * 9)/5 + 32)
 }
