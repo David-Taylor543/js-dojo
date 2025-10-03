@@ -6,6 +6,5 @@
  * doubleLikes([100, 200, 300]); // returns [200, 400, 600]
  */
 export function doubleLikes(likes) {
-  // TODO: ???
-  // TODO: ???
+  return likes.map(like => like * 2)
 }

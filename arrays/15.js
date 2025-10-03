@@ -6,7 +6,6 @@
  * convertToFahrenheit([0, 20, 30]); // returns [32, 68, 86]
  */
 export function convertToFahrenheit(tempsCelsius) {
-  // TODO: ???
   // Formula: (Celsius * 9/5) + 32
-  // TODO: ???
+  return tempsCelsius.map(celsius => (celsius * 9/5) + 32)
 }

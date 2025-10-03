@@ -6,7 +6,8 @@
  * shiftAllAges([30, 25, 20, 35, 40]); // returns [25, 20, 35, 40, 30]
  */
 export function shiftAllAges(ages) {
-  // TODO: ???
-  // TODO: ???
-  // TODO: ???
+  const firstAge = ages[0]
+  ages.shift()
+  ages.push(firstAge)
+  return ages
 }

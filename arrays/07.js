@@ -6,6 +6,5 @@
  * extractWeekdays([15, 16, 18, 20, 21, 19, 17]); // returns [15, 16, 18, 20, 21]
  */
 export function extractWeekdays(temps) {
-  // TODO: ???
-  // TODO: ???
+  return temps.slice(0,5)
 }

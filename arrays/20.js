@@ -6,6 +6,5 @@
  * filterMultiplesOfThree([10, 15, 20, 30, 33]); // returns [15, 30, 33]
  */
 export function filterMultiplesOfThree(numbers) {
-  // TODO: ???
-  // TODO: ???
+  return numbers.filter(number => number % 3 === 0)
 }

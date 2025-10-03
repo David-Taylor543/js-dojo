@@ -7,8 +7,6 @@
  * updateStepCounts([4000, 7000, 3000, 8000], 6000); // returns [8000, 9000, 7000]
  */
 export function updateStepCounts(stepCounts, newStepCount) {
-  // TODO: ???
-  // TODO: ???
-  // TODO: ???
-  // TODO: ???
+  stepCounts.push(newStepCount)
+  return stepCounts.filter(stepCount => stepCount >= 5000).map(stepCount => stepCount + 1000)
 }

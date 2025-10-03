@@ -7,6 +7,5 @@
  * filterPrices([100, 200, 50, 300], 100); // returns [200, 300]
  */
 export function filterPrices(prices, threshold) {
-  // TODO: ???
-  // TODO: ???
+  return prices.filter(price => price > threshold)
 }

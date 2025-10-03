@@ -7,6 +7,5 @@
  * appendYear(['Book One', 'Book Two'], 2024); // returns ['Book One (2024)', 'Book Two (2024)']
  */
 export function appendYear(titles, year) {
-  // TODO: ???
-  // TODO: ???
+  return titles.map(title => `${title} (${year})`)
 }

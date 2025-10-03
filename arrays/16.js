@@ -7,7 +7,6 @@
  * applyDiscount([100, 200, 300], 10); // returns [90, 180, 270]
  */
 export function applyDiscount(prices, discount) {
-  // TODO: ???
   // Formula: price - (price * discount / 100)
-  // TODO: ???
+  return prices.map(price => price - (price * discount / 100))
 }

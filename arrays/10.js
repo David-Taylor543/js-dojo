@@ -6,6 +6,5 @@
  * getLastTwoNames(['Alice', 'Bob', 'Charlie', 'David', 'Eve']); // returns ['David', 'Eve']
  */
 export function getLastTwoNames(names) {
-  // TODO: ???
-  // TODO: ???
+  return names.slice(-2)
 }

@@ -7,6 +7,6 @@
  * addTemperature([22, 23, 19, 25, 21], 26); // returns [22, 23, 19, 25, 21, 26]
  */
 export function addTemperature(temperatures, newTemp) {
-  // TODO: ???
-  // TODO: ???
+  temperatures.push(newTemp)
+  return temperatures
 }

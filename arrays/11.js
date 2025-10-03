@@ -6,6 +6,5 @@
  * increasePrices([100, 200, 300]); // returns [110, 220, 330]
  */
 export function increasePrices(prices) {
-  // TODO: ???
-  // TODO: ???
+  return prices.map(price => price * 1.1)
 }

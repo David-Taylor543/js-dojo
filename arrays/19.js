@@ -6,6 +6,5 @@
  * filterEvenAges([21, 22, 23, 24, 25]); // returns [22, 24]
  */
 export function filterEvenAges(ages) {
-  // TODO: ???
-  // TODO: ???
+  return ages.filter(age => age % 2 === 0)
 }

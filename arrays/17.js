@@ -7,6 +7,5 @@
  * prefixCategory(['Laptop', 'Phone', 'Tablet'], 'Electronics'); // returns ['Electronics: Laptop', 'Electronics: Phone', 'Electronics: Tablet']
  */
 export function prefixCategory(products, category) {
-  // TODO: ???
-  // TODO: ???
+  return products.map(product => `${category}: ${product}`)
 }

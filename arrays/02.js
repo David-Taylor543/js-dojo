@@ -6,7 +6,5 @@
  * endSum([12.99, 23.45, 34.50, 45.99, 56.75]); // returns 102.74
  */
 export function endSum(prices) {
-  // TODO: ???
-  // TODO: ???
-  // TODO: ???
+  return prices[prices.length -1] + prices[prices.length -2]
 }

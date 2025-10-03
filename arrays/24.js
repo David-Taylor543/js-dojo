@@ -5,10 +5,9 @@
  * @returns {number[]} The new array of modified temperatures in Celsius.
  * @example
  * updateTemperatures([59, 65, 72, 50], 68); // returns [18.3333, 22.2222, 20]
+ * //(Celsius * 9/5) + 32
  */
 export function updateTemperatures(tempsFahrenheit, newTempFahrenheit) {
-  // TODO: ???
-  // TODO: ???
-  // TODO: ???
-  // TODO: ???
+  tempsFahrenheit.push(newTempFahrenheit)
+  return tempsFahrenheit.filter(temps => temps >= 60).map(temps => (temps - 32) * (5/9))
 }

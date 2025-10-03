@@ -7,8 +7,6 @@
  * updatePrices([30, 120, 50, 200], 45); // returns [60, 100, 90]
  */
 export function updatePrices(prices, newPrice) {
-  // TODO: ???
-  // TODO: ???
-  // TODO: ???
-  // TODO: ???
+  prices.push(newPrice)
+  return prices.filter(price => price <= 100).map(price => price * 2)
 }

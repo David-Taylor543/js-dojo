@@ -6,6 +6,5 @@
  * addHashtags(['coding', 'javascript', 'webdev']); // returns ['#coding', '#javascript', '#webdev']
  */
 export function addHashtags(topics) {
-  // TODO: ???
-  // TODO: ???
+  return topics.map(topic => '#' + topic)
 }

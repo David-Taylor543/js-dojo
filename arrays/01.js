@@ -6,7 +6,5 @@
  * startSum([12.99, 23.45, 34.50, 45.99, 56.75]); // returns 36.44
  */
 export function startSum(prices) {
-  // TODO: ???
-  // TODO: ???
-  // TODO: ???
+  return prices[0] + prices[1]
 }

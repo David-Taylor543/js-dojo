@@ -7,8 +7,6 @@
  * updateFollowers([1, 2, 3, 4], 5); // returns ['ID-1', 'ID-3', 'ID-5']
  */
 export function updateFollowers(followerIDs, newFollowerID) {
-  // TODO: ???
-  // TODO: ???
-  // TODO: ???
-  // TODO: ???
+  followerIDs.push(newFollowerID)
+  return followerIDs.filter(id => id % 2 !== 0).map(id => 'ID-'+ id)
 }
